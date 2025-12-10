@@ -1,0 +1,43 @@
+# Build outputs
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+obj/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled binaries (common naming patterns)
+a.out
+main
+solution
+day*[!.cpp]
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Input files (optional - uncomment if you want to keep inputs private)
+# input.txt
+# *.txt
